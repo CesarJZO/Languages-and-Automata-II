@@ -17,10 +17,10 @@ menu = """
 opt = (int)(input(menu))
 
 if opt == 1:
-    quadratic_equation()
     a = (float)(input("a: "))
     b = (float)(input("b: "))
     c = (float)(input("c: "))
+    quadratic_equation(a, b, c)
 
 elif opt == 2:
     hypotenuse()
