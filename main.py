@@ -5,6 +5,13 @@ def quadratic_equation(a, b, c):
     x2 = (-b - math.sqrt(b**2 - 4 * a *c)) / 2 * a
     print("X1: ", x1, ", X2: ", x2)
 
+def hypotenuse():
+    base=float(input("Da la base del triangulo: "))
+    altura=float(input("Da la altura del traingulo: "))
+    hipotenusa = math.sqrt((base*2)+(altura*2))
+    print("la hipotenusa del traigulo rectangulo es ", str(hipotenusa))
+
+
 def cylinder_volume(height, radius):
     volume = height * math.pi * radius ** 2
     print(f"Volume: {volume}")
